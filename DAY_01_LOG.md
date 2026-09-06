@@ -1,0 +1,15 @@
+### Day 1 / 112 — Environment Setup
+- **Date**: 2026-09-06
+- **Target Output**: Working Python 3.11 environment with venv, .env, Git, Docker, and Postman
+- **Time Log**:
+  - Theory & Setup: 60 min
+  - Coding & Verification: 75 min
+  - Docs & Commit: 15 min
+- **Key Concepts Learned**:
+  - Isolated dependency management using `venv` and `requirements.txt`
+  - Secret isolation using `.env`, `python-dotenv`, and `.gitignore`
+  - Local version control snapshots via Git
+  - Containerization verification via Docker Desktop
+- **Code Built / Committed**: Commit `1d51881` (Local initial setup)
+- **Blockers / Debugging Notes**: `test_env.py` returned `None` because `load_dotenv` was referenced without `()`. Fixed by calling `load_dotenv()` to execute the loader.
+- **Status**: [x] Complete (100% setup achieved)
