@@ -1,0 +1,13 @@
+### Day 3 / 112 — Git & GitHub Workflow[cite: 1, 2]
+- **Date**: 2026-09-08
+- **Target Output**: Clean public GitHub repository, security ignore rules, and tested branching lifecycle[cite: 1, 2]
+- **Time Log**:
+  - Theory: [x] 60 min
+  - Coding: [x] 75 min
+  - Docs & Commit: [x] 30 min
+- **Key Concepts Learned**:
+  - Concept 1: Repo security and secret management using `.gitignore` (`.venv/`, `.env`)
+  - Concept 2: Feature branch isolation, merge workflows, and safe branch cleanup[cite: 1, 2]
+- **Code Built / Committed**: Repository linked and pushed to `https://github.com/ramlx0/ai-engineer.git`[cite: 2]
+- **Blockers / Debugging Notes**: Verified branch isolation through temporary file disappearance on `main`; linked remote upstream using `-u`
+- **Status**: [x] Complete (70%+ comprehension achieved)[cite: 1]
