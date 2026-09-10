@@ -1,0 +1,14 @@
+### Day 5 / 112 — Practical OOP (Classes, Methods, Dataclasses)
+- **Date**: 2026-09-10
+- **Target Output**: OOP chat manager with Dataclass payload serialization
+- **Time Log**:
+  - Theory: [x] 60 min
+  - Coding: [x] 75 min
+  - Docs & Commit: [x] 15 min
+- **Key Concepts Learned**:
+  - Encapsulating prompt structures using `@dataclass` without boilerplate `__init__`
+  - Managing conversation state across turns with instance methods and `self`
+  - Serializing class state into API-ready dictionary payloads (`to_dict_list`)
+- **Code Built / Committed**: `day_05_practice.py`
+- **Blockers / Debugging Notes**: `manager.get_message_count` printed memory reference without `()`; fixed by adding parentheses to execute the method.
+- **Status**: [x] Complete (70%+ comprehension achieved)
