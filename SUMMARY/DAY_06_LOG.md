@@ -1,0 +1,15 @@
+ ### Day 6 / 112 — Type Hints & Pydantic Validation (BaseModel)
+- **Date**: 2026-09-11
+- **Target Output**: Production Pydantic request model with boundary constraints and custom validators
+- **Time Log**:
+  - Theory: [x] 60 min
+  - Coding: [x] 75 min
+  - Docs & Commit: [x] 15 min
+- **Key Concepts Learned**:
+  - Runtime validation and data coercion using Pydantic `BaseModel`
+  - Numeric boundary enforcement with `Field(ge=..., le=...)`
+  - Custom data sanitization using `@field_validator`
+  - Built-in serialization to dict and JSON (`model_dump`, `model_dump_json`)
+- **Code Built / Committed**: `day_06_practice.py`
+- **Blockers / Debugging Notes**: Tested intentional boundary break (`temperature=200`) and caught `ValidationError`; tested whitespace-only prompt and triggered custom validator.
+- **Status**: [x] Complete (70%+ comprehension achieved)
